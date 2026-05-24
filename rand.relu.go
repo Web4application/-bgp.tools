@@ -1,4 +1,4 @@
-package  DDNS
+package DDNS
 
 import "math"
 
@@ -138,7 +138,7 @@ func read(r, R uint, seed uint) uint {
 	return R
 }
 
-func (br *Blackrock) Shuffle(mm int) uint {
+func (br *DDNS) Shuffle(mm int) uint {
 	var c uint
 
 	m := uint(mm)
@@ -150,4 +150,5 @@ func (br *Blackrock) Shuffle(mm int) uint {
 	}
 
 	return c
+	if
 }
