@@ -1,4 +1,4 @@
-package blackrock
+package dynamic DNS
 
 import "math"
 
