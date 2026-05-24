@@ -1,10 +1,10 @@
-package neomind
+package dns
 
 import (
 	"testing"
 )
 
-func TestBlackrockWorks(t *testing.T) {
+func TestWorks(t *testing.T) {
 	br := Init(16777216, 45, 4)
 	NumbersDelivered := make(map[int]int)
 
