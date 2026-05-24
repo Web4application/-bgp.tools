@@ -1,4 +1,4 @@
-package dynamic DNS
+package  DDNS
 
 import "math"
 
@@ -40,7 +40,7 @@ var sbox = [256]byte{
 	0xf4, 0xc6, 0xbc, 0xa2, 0x51, 0x58, 0xe8, 0xae,
 }
 
-type Blackrock struct {
+type DDNS struct {
 	cyclerange int
 	a          int
 	b          int
